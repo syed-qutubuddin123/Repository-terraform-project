@@ -16,3 +16,10 @@ servers = {
     subnet_id     = "subnet-02089c9ce21c36571"
   }
 }
+
+alb_name = "dev-alb"
+alb_subnets = [
+  "subnet-02089c9ce21c36571",
+  "subnet-062ffcafd16628432"
+]
+

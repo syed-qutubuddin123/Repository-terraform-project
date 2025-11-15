@@ -9,3 +9,8 @@ variable "servers" {
     subnet_id     = string
   }))
 }
+
+variable "alb_name" {}
+variable "alb_subnets" {
+  type = list(string)
+}
